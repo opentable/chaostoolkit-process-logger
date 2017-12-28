@@ -1,2 +1,3 @@
 chaostoolkit-lib>=0.8.2
 pycodestyle
+logzero

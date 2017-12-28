@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from chaosext.probes import empty_probe
+from process_logger.probes import run_process_with_log
 
 
 def test_empty_probe():
-    assert empty_probe() is True
+    assert run_process_with_log(path='./file_path') is True
 

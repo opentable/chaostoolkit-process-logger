@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from chaosext.actions import empty_action
+from process_logger.actions import empty_action
 
 
 def test_empty_action():
