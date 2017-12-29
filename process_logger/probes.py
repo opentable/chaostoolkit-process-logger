@@ -17,5 +17,7 @@ def run_process_with_log(**arguments) -> Any:
                     'path': path,
                     'arguments': {}}}
     result = run_process_activity(activity, {}, {})
-    logger.info(result[1])
-    return result
+    stdout = result[1]
+    status_code = result[0]
+    logger.info(stdout)
+    return status_code
